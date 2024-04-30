@@ -5,8 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "rgba(var(--background))",
+        darkGreen: "rgba(var(--darkGreen))"
+      }
+    },
   },
   plugins: [],
+  darkMode: "class"
 }
 
